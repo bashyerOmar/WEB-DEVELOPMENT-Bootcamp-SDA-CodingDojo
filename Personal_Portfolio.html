@@ -6,10 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        .table1 th , td {
+        .table2 th , td {
             border: 1px solid black;
             border-collapse: collapse;
         }
+       
+        
+        
     </style>
     <title>Portfolio</title>
 </head>
@@ -17,26 +20,23 @@
 <body>
     <div>
         <h1>Bashayer Alghamdi</h1>
-        <img src="pic_icon.png" />
+        <img src="pic_icon.png" alt="Personal pic" />
     </div>
 
     <div>
-        <table>
-            <tr>
-                <th><a href="https://github.com/bashyerOmar"> My Github <img src="GitHub-Mark.png" width="30"
-                            height="30" align="left"> </a> </th>
-                <th><a href="https://www.linkedin.com/in/bshayer-alghamdi/"> My Linkedin <img src="linkedinpng.png"
-                            width="30" height="30" align="left"> </a></th>
-                <th><a href="besho.om.alghamdi@gmail.com"> My Email <img src="email_icon.jpg" width="30" height="30"
-                            align="left"> </a></th>
+        <img src="GitHub-Mark.png" width="30" height="30" alt="github icon">
+        <a href="https://github.com/bashyerOmar" > My Github</a>
 
-            </tr>
-        </table>
+        <img src="linkedinpng.png" width="30" height="30" alt="linkedin icon">
+        <a href="https://www.linkedin.com/in/bshayer-alghamdi/" > My Linkedin</a>
+
+        <img src="email_icon.jpg" width="30" height="30" alt="email icon">
+        <a href="besho.om.alghamdi@gmail.com" > My Email</a>
     </div>
 
     <div>
         <h3>Technologies</h3>
-        <table class="table1">
+        <table class="table2">
             <tr>
                 <th>Front-End</th>
                 <th>Python</th>
@@ -78,14 +78,14 @@
     <div>
         <h3>Contact Me</h3>
         <form method="post">
-            <label for="Name">Name:</label>
+            <label id="name">Name:</label>
             <input type="text">
 
-            <label for="Email">Email:</label>
+            <label id="email">Email:</label>
             <input type="email">
             <br>
             <br>
-            <label for="message">Message:</label>
+            <label id="message">Message:</label>
             <textarea name="message" rows="4" cols="50"></textarea>
             <br>
             <input type="submit" value="Send Message">
