@@ -1,0 +1,50 @@
+.nav {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    background-color: rgb(57, 56, 56);
+    color: white;
+    font-family:Tahoma;
+    font-size: 20px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+h1 {
+    margin-left: 25px;
+    font-family: Comic Sans MS;
+}
+
+a:active {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    
+    /* align-items: flex-end; */
+    
+}
+
+.btn {
+    background-color: rgb(28, 179, 221);
+    color: white;
+    font-size: 20px;
+    padding: 5px 15px 5px 15px;
+    border: 5px solid black;
+    box-shadow: 5px 5px 0px black;
+    margin-right: 25px;
+}
+
+li a {
+    padding: 16px;
+}
