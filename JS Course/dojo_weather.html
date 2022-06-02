@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/dojo_weather.css">
+    <script src="./JS/dojo_weather.js"></script>
+    <title>Weather Forecast</title>
+</head>
+<body>
+    
+    
+    <div class="nav">
+        <div class="container-nav">
+        <h1>DojoWeather</h1>
+        <ul class="nav-links" onclick="cityMsg()">
+            <li><a href="#">Burbank</a></li>
+            <li><a href="#" >Chicago</a></li>
+            <li><a href="#">Dallas</a></li>       
+        </ul>
+        </div>
+    </div>
+    
+     <div class="city-content">
+         <h1>San Jose</h1>
+         <h4>show tempreatures in </h4> 
+         <select name="tmp" onclick="changeTemp()" id="temp">
+             <option value="C">C</option>
+             <option value="F">F</option>
+         </select>
+     </div>
+     <hr>
+     <div class="main-container">
+      <div class="weather-card-container">
+          <div class="card" id="c1">
+            <h2>Today</h2>
+              <img src="./assets/some_clouds.png" alt="clouds-icon">
+              <h5>Some clouds</h5>
+              <h3><span class="red">24</span><span class="blue">18</span></h3>
+          </div>
+          <div class="card" id="c2">
+            <h2>Tomorrow</h2>
+            <img src="./assets/some_sun.png" alt="clouds-icon">
+            <h5>Some sun</h5>
+            <h3><span class="red">27</span><span class="blue">19</span></h3>
+          </div>
+          <div class="card" id="c3">
+            <h2>Friday</h2>
+            <img src="./assets/some_rain.png" alt="clouds-icon">
+            <h5>Some rain</h5>
+            <h3><span class="red">21</span><span class="blue">16</span></h3>
+          </div>
+          <div class="card" id="c4">
+            <h2>Saturday</h2>
+            <img src="./assets/some_sun.png" alt="clouds-icon">
+            <h5>Some sun</h5>
+            <h3><span class="red">26</span><span class="blue">21</span></h3>
+          </div>
+      </div>
+       <div class="cookie-card">
+           <img src="./assets/cookie.png" alt="cookie-icon" >
+           <span class="cookie-header"><h3>Stop!Cookie time <br></h3></span>
+           <span class="cookie-body"><p>We use cookies (sadley not the edible one) to personalize<br> 
+            content and ads, to provide social media features and to<br>
+             analyse our traffic. <a href="#">Read more...</a></p>
+             </span>
+             <button class="btn" onclick="remove()">I Accept</button>
+           
+       </div>
+
+    </div>
+
+</body>
+</html>
