@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>button clicker</title>
+    <link rel="stylesheet" href="./style/button_clicker.css">
+</head>
+
+<body>
+
+    <div class="nav">
+        <h1 class="nav-title">Dojonary</h1>
+        <ul class="nav-links">
+            <li><input type="text" value="search" id="search-bar"></li>
+            <li><button class="btn" onclick='this.innerText = "Log out"'>Login</button></li>
+        </ul>
+    </div>
+    <div class="container">
+
+        <div class="col-l">
+            <div class="card-ninja1">
+                <h1>ninja</h1>
+                <h3 id="noun">noun</h3>
+                <h4>Plural:ninjas</h4>
+                <div id="content">
+                    <h3>A prationated Skilled in the <br>
+                        <a href="#">Japaneses</a> art of <a href="#">ninjastu</a>
+                    </h3>
+                </div>
+                <button class="btn" onclick="alert('ninja was liked')">13 Likes</button>
+            </div>
+
+            <div class="card-ninja2">
+                <h1>ninja</h1>
+                <h3 id="noun">noun</h3>
+                <h4>Plural:ninjas</h4>
+                <div id="content">
+                    <h3> A <a href="#">programmer</a> who breaks <br>
+                        down problems with <a href="#">zen</a>-like <br> foucs</h3>
+                </div>
+                <button class="btn" onclick="alert('ninja was liked')">37 Likes</button>
+            </div>
+        </div>
+
+        <div class="col-r">
+            <div class="card-defination">
+                <p id="p">Dojonary is <br> defined by <strong>YOU</strong> </p>
+                <button class="btn" onclick="this.remove()">Add Definition</button>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

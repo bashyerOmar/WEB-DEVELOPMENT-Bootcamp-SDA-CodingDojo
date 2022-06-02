@@ -1,0 +1,157 @@
+.container {
+    display: flex;
+    width: 900px;
+    height: 800px;
+    font-family: Comic Sans MS;
+
+}
+
+.nav {
+    display: flex;
+    height: 80px;
+    width: 900px;
+    align-items: center;
+    background-color: rgb(192, 192, 192);
+    font-size: 20px;
+    margin: auto;
+}
+
+h1 {
+    margin-left: 25px;
+    font-family: Comic Sans MS;
+}
+
+
+.nav-links {
+    display: flex;
+    list-style: none;
+
+}
+
+.btn {
+    background-color: rgb(28, 179, 221);
+    color: white;
+    font-size: 15px;
+    padding: 5px 15px 5px 15px;
+    border: 3px solid black;
+    box-shadow: 3px 3px 0px black;
+
+}
+
+.nav-links button {
+    margin-left: 50px;
+}
+
+.nav-links input {
+    margin-left: 20px;
+    margin-right: 50px;
+    padding: 5px 150px 5px 0px;
+
+}
+
+.card-ninja1 {
+    position: relative;
+    width: 500px;
+    /* flex-grow:1; */
+    height: 200px;
+    border: 2px solid black;
+    left: 20%;
+    top: 5%;
+
+}
+
+.card-ninja1 button {
+    left: 20px;
+
+}
+
+.card-ninja1 h3,
+.card-ninja2 h3 {
+    top: 70px;
+    left: 40px;
+}
+
+#noun {
+    top: 30px;
+    left: 40px;
+}
+
+.card-ninja1 h4,
+.card-ninja2 h4 {
+    top: 30px;
+    left: 20px;
+}
+
+.card-ninja1 h1,
+h3,
+h4,
+button,
+.card-ninja2 h1,
+h3,
+h4,
+#content,
+.card-defination p {
+    position: relative;
+
+}
+
+.card-ninja1 h1,
+.card-ninja2 h1 {
+    top: 30px;
+}
+
+#content {
+    left: 100px;
+    bottom: 110px;
+}
+
+.card-ninja2 {
+    position: relative;
+    width: 500px;
+    /* flex-grow:1; */
+    height: 200px;
+    border: 2px solid black;
+    right: 30%;
+    top: 35%;
+
+}
+
+.card-ninja1 button,
+.card-ninja2 button {
+    background-color: rgb(255, 213, 0);
+}
+
+.card-ninja2 button {
+    left: 20px;
+    bottom: 20px;
+}
+
+
+.card-defination {
+    position: absolute;
+    width: 320px;
+    height: 170px;
+    border: 2px solid black;
+    bottom: 54%;
+    left: 60%;
+}
+
+.card-defination button {
+    background-color: rgb(113, 178, 9);
+    padding: 5px 50px 5px 50px;
+    left: 60px;
+    top: 35px;
+}
+
+.card-defination p {
+    font-size: 30px;
+    font-family: Comic Sans MS;
+    left: 20px;
+    top: 10px;
+}
+
+* {
+    /*  his will make our designs consistent from one browser to another  */
+    padding: 0;
+    margin: 0;
+}
