@@ -1,5 +1,8 @@
 
 
+from importlib.util import find_spec
+
+
 class User:
     def __init__(self, name, email_address):
         self.name = name
@@ -21,11 +24,28 @@ class User:
 
 
 
-Bashyer=User("besh","besh#gmail.com")
-Bashyer.make_deposit(200)
-Bashyer.display_user_balance() # User:besh, Balance: 200
+first_user=User("besh","besh#gmail.com")
+first_user.make_deposit(200)
+first_user.make_deposit(50)
+first_user.make_deposit(100)
+first_user.make_withdrawal(50)
+first_user.display_user_balance() # User:besh, Balance: 300
 
-khalid=User("khalid","user@gmail.com")
-Bashyer.transfer_money(khalid,100)
-khalid.display_user_balance() # User:khalid, Balance: 100
-Bashyer.display_user_balance() # User:besh, Balance: 100
+second_user=User("khalid","user@gmail.com")
+second_user.make_deposit(200)
+second_user.make_deposit(80)
+second_user.make_withdrawal(80)
+second_user.make_withdrawal(50)
+second_user.display_user_balance() #User:khalid, Balance: 150
+
+third_user=User("mohammed","user@gmail.com")
+third_user.make_deposit(300)
+third_user.make_withdrawal(100)
+third_user.make_withdrawal(100)
+third_user.make_withdrawal(100)
+third_user.display_user_balance() #User:mohammed, Balance: 0
+
+#transfer money from first user to third user 
+first_user.transfer_money(third_user,100)
+first_user.display_user_balance() # User:besh, Balance: 200
+third_user.display_user_balance() # User:mohammed, Balance: 100
