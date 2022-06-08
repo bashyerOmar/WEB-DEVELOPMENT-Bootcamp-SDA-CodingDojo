@@ -1,4 +1,4 @@
-import itertools
+
 from flask import Flask 
 
 
@@ -26,7 +26,7 @@ def repeat(num,name):
     names={}
     for i in range(num+1):
         names[i]=name
-    return names
+    return names # we can use name*num also
 
 if __name__ == "__main__":   # Ensure this file is being run directly and not from a different module
     app.run(debug=True)
