@@ -7,7 +7,6 @@ from MathDojo import MathDojo
 md=MathDojo() #instance
 
 class MathTest(unittest.TestCase):
-
     
     def testAdd(self):
         self.assertEqual(md.add(2,3).result, 5)
@@ -17,7 +16,6 @@ class MathTest(unittest.TestCase):
         self.assertEqual(md.add(2,100).result, 102)
 
         
-
     def testSub(self):
         md.result=0
         self.assertEqual(md.subtract(3,3).result, 0)
