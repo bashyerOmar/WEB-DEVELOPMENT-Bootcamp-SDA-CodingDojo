@@ -1,0 +1,13 @@
+@charset "ISO-8859-1";
+
+.container table{
+	border: 20px solid pink;
+	width:700px;
+}
+
+.container h1 {
+	color:pink;
+}
+
+
+
