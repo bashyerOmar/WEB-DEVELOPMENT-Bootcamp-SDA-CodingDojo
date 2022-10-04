@@ -1,0 +1,356 @@
+{
+	"info": {
+		"_postman_id": "a08c0220-5076-4922-9e92-eb1c12b357dd",
+		"name": "Postman&Pokemon assignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14237710"
+	},
+	"item": [
+		{
+			"name": "https://pokeapi.co/api/v2/berry-flavor/spicy",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlRHTWsxU3l3c0Q3TlVVYk5BYmY2OCJ9.eyJpc3MiOiJodHRwczovL2NhcHN0b25lLWZzbmQyMS51cy5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NjAzN2YyOWNmYjM3ZDAwMDY4MjYxZGNlIiwiYXVkIjoiY2Fwc3RvbmUiLCJpYXQiOjE2MTQ3MTc0NTMsImV4cCI6MTYxNDgwMzg1MywiYXpwIjoickluOFU4eHoycHhHYk5wMkNYN1RGY2hCdmhndHMzMEQiLCJzY29wZSI6IiIsInBlcm1pc3Npb25zIjpbImRlbGV0ZTphY3RvcnMiLCJkZWxldGU6bW92aWVzIiwiZ2V0OmFjdG9ycyIsImdldDptb3ZpZXMiLCJwYXRjaDphY3RvcnMiLCJwYXRjaDptb3ZpZXMiLCJwb3N0OmFjdG9ycyIsInBvc3Q6bW92aWVzIl19.bQEeV4zsJbB_SZb9U4auwIRVdDtUv34ZGwt0ZeLq5kGT2zN0DfALMrjKqHSK8s7UIl_CKjuw6FuOewzgSKQSzy04_lXZeMO73gjKCW3K-ihd4tP_0DDAf41FTFmmkREiBt3QJCXahbZuo06njLyQmQcU5zgxa0hG7kvKj19xSDzhtzQTVgPLfQF5IHSUzuTenHCPtqMyi5JXUmqm46xAwwmzGBV6ZwC2IwFZpdu3YNdK8jfptKJRWMAKZZ0Az7kIAT74OSiDj6V5QnYStmdKp5semz6vSnnvZ11rGG_gWAUcCgxUxXozQmJiROek6w7BqJRENohqu0aBd3J6hYe_YQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "first_name",
+						"value": "besho",
+						"type": "text"
+					},
+					{
+						"key": "last_name",
+						"value": "ghamdi",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "language1",
+							"type": "text"
+						},
+						{
+							"key": "creator",
+							"value": "james",
+							"type": "text"
+						},
+						{
+							"key": "version",
+							"value": "1.1",
+							"type": "text"
+						},
+						{
+							"key": "",
+							"value": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://pokeapi.co/api/v2/super-contest-effect/8",
+					"protocol": "https",
+					"host": [
+						"pokeapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v2",
+						"super-contest-effect",
+						"8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://pokeapi.co/api/v2/super-contest-effect/8",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlRHTWsxU3l3c0Q3TlVVYk5BYmY2OCJ9.eyJpc3MiOiJodHRwczovL2NhcHN0b25lLWZzbmQyMS51cy5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NjAzN2YyOWNmYjM3ZDAwMDY4MjYxZGNlIiwiYXVkIjoiY2Fwc3RvbmUiLCJpYXQiOjE2MTQ3MTc0NTMsImV4cCI6MTYxNDgwMzg1MywiYXpwIjoickluOFU4eHoycHhHYk5wMkNYN1RGY2hCdmhndHMzMEQiLCJzY29wZSI6IiIsInBlcm1pc3Npb25zIjpbImRlbGV0ZTphY3RvcnMiLCJkZWxldGU6bW92aWVzIiwiZ2V0OmFjdG9ycyIsImdldDptb3ZpZXMiLCJwYXRjaDphY3RvcnMiLCJwYXRjaDptb3ZpZXMiLCJwb3N0OmFjdG9ycyIsInBvc3Q6bW92aWVzIl19.bQEeV4zsJbB_SZb9U4auwIRVdDtUv34ZGwt0ZeLq5kGT2zN0DfALMrjKqHSK8s7UIl_CKjuw6FuOewzgSKQSzy04_lXZeMO73gjKCW3K-ihd4tP_0DDAf41FTFmmkREiBt3QJCXahbZuo06njLyQmQcU5zgxa0hG7kvKj19xSDzhtzQTVgPLfQF5IHSUzuTenHCPtqMyi5JXUmqm46xAwwmzGBV6ZwC2IwFZpdu3YNdK8jfptKJRWMAKZZ0Az7kIAT74OSiDj6V5QnYStmdKp5semz6vSnnvZ11rGG_gWAUcCgxUxXozQmJiROek6w7BqJRENohqu0aBd3J6hYe_YQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "first_name",
+						"value": "besho",
+						"type": "text"
+					},
+					{
+						"key": "last_name",
+						"value": "ghamdi",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "language1",
+							"type": "text"
+						},
+						{
+							"key": "creator",
+							"value": "james",
+							"type": "text"
+						},
+						{
+							"key": "version",
+							"value": "1.1",
+							"type": "text"
+						},
+						{
+							"key": "",
+							"value": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://pokeapi.co/api/v2/super-contest-effect/8",
+					"protocol": "https",
+					"host": [
+						"pokeapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v2",
+						"super-contest-effect",
+						"8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://pokeapi.co/api/v2/evolution-trigger/6/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlRHTWsxU3l3c0Q3TlVVYk5BYmY2OCJ9.eyJpc3MiOiJodHRwczovL2NhcHN0b25lLWZzbmQyMS51cy5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NjAzN2YyOWNmYjM3ZDAwMDY4MjYxZGNlIiwiYXVkIjoiY2Fwc3RvbmUiLCJpYXQiOjE2MTQ3MTc0NTMsImV4cCI6MTYxNDgwMzg1MywiYXpwIjoickluOFU4eHoycHhHYk5wMkNYN1RGY2hCdmhndHMzMEQiLCJzY29wZSI6IiIsInBlcm1pc3Npb25zIjpbImRlbGV0ZTphY3RvcnMiLCJkZWxldGU6bW92aWVzIiwiZ2V0OmFjdG9ycyIsImdldDptb3ZpZXMiLCJwYXRjaDphY3RvcnMiLCJwYXRjaDptb3ZpZXMiLCJwb3N0OmFjdG9ycyIsInBvc3Q6bW92aWVzIl19.bQEeV4zsJbB_SZb9U4auwIRVdDtUv34ZGwt0ZeLq5kGT2zN0DfALMrjKqHSK8s7UIl_CKjuw6FuOewzgSKQSzy04_lXZeMO73gjKCW3K-ihd4tP_0DDAf41FTFmmkREiBt3QJCXahbZuo06njLyQmQcU5zgxa0hG7kvKj19xSDzhtzQTVgPLfQF5IHSUzuTenHCPtqMyi5JXUmqm46xAwwmzGBV6ZwC2IwFZpdu3YNdK8jfptKJRWMAKZZ0Az7kIAT74OSiDj6V5QnYStmdKp5semz6vSnnvZ11rGG_gWAUcCgxUxXozQmJiROek6w7BqJRENohqu0aBd3J6hYe_YQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "first_name",
+						"value": "besho",
+						"type": "text"
+					},
+					{
+						"key": "last_name",
+						"value": "ghamdi",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "language1",
+							"type": "text"
+						},
+						{
+							"key": "creator",
+							"value": "james",
+							"type": "text"
+						},
+						{
+							"key": "version",
+							"value": "1.1",
+							"type": "text"
+						},
+						{
+							"key": "",
+							"value": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://pokeapi.co/api/v2/evolution-trigger/6/",
+					"protocol": "https",
+					"host": [
+						"pokeapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v2",
+						"evolution-trigger",
+						"6",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://pokeapi.co/api/v2/version/3/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlRHTWsxU3l3c0Q3TlVVYk5BYmY2OCJ9.eyJpc3MiOiJodHRwczovL2NhcHN0b25lLWZzbmQyMS51cy5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NjAzN2YyOWNmYjM3ZDAwMDY4MjYxZGNlIiwiYXVkIjoiY2Fwc3RvbmUiLCJpYXQiOjE2MTQ3MTc0NTMsImV4cCI6MTYxNDgwMzg1MywiYXpwIjoickluOFU4eHoycHhHYk5wMkNYN1RGY2hCdmhndHMzMEQiLCJzY29wZSI6IiIsInBlcm1pc3Npb25zIjpbImRlbGV0ZTphY3RvcnMiLCJkZWxldGU6bW92aWVzIiwiZ2V0OmFjdG9ycyIsImdldDptb3ZpZXMiLCJwYXRjaDphY3RvcnMiLCJwYXRjaDptb3ZpZXMiLCJwb3N0OmFjdG9ycyIsInBvc3Q6bW92aWVzIl19.bQEeV4zsJbB_SZb9U4auwIRVdDtUv34ZGwt0ZeLq5kGT2zN0DfALMrjKqHSK8s7UIl_CKjuw6FuOewzgSKQSzy04_lXZeMO73gjKCW3K-ihd4tP_0DDAf41FTFmmkREiBt3QJCXahbZuo06njLyQmQcU5zgxa0hG7kvKj19xSDzhtzQTVgPLfQF5IHSUzuTenHCPtqMyi5JXUmqm46xAwwmzGBV6ZwC2IwFZpdu3YNdK8jfptKJRWMAKZZ0Az7kIAT74OSiDj6V5QnYStmdKp5semz6vSnnvZ11rGG_gWAUcCgxUxXozQmJiROek6w7BqJRENohqu0aBd3J6hYe_YQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "first_name",
+						"value": "besho",
+						"type": "text"
+					},
+					{
+						"key": "last_name",
+						"value": "ghamdi",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "language1",
+							"type": "text"
+						},
+						{
+							"key": "creator",
+							"value": "james",
+							"type": "text"
+						},
+						{
+							"key": "version",
+							"value": "1.1",
+							"type": "text"
+						},
+						{
+							"key": "",
+							"value": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://pokeapi.co/api/v2/version/3/",
+					"protocol": "https",
+					"host": [
+						"pokeapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v2",
+						"version",
+						"3",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://pokeapi.co/api/v2/growth-rate/6/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlRHTWsxU3l3c0Q3TlVVYk5BYmY2OCJ9.eyJpc3MiOiJodHRwczovL2NhcHN0b25lLWZzbmQyMS51cy5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NjAzN2YyOWNmYjM3ZDAwMDY4MjYxZGNlIiwiYXVkIjoiY2Fwc3RvbmUiLCJpYXQiOjE2MTQ3MTc0NTMsImV4cCI6MTYxNDgwMzg1MywiYXpwIjoickluOFU4eHoycHhHYk5wMkNYN1RGY2hCdmhndHMzMEQiLCJzY29wZSI6IiIsInBlcm1pc3Npb25zIjpbImRlbGV0ZTphY3RvcnMiLCJkZWxldGU6bW92aWVzIiwiZ2V0OmFjdG9ycyIsImdldDptb3ZpZXMiLCJwYXRjaDphY3RvcnMiLCJwYXRjaDptb3ZpZXMiLCJwb3N0OmFjdG9ycyIsInBvc3Q6bW92aWVzIl19.bQEeV4zsJbB_SZb9U4auwIRVdDtUv34ZGwt0ZeLq5kGT2zN0DfALMrjKqHSK8s7UIl_CKjuw6FuOewzgSKQSzy04_lXZeMO73gjKCW3K-ihd4tP_0DDAf41FTFmmkREiBt3QJCXahbZuo06njLyQmQcU5zgxa0hG7kvKj19xSDzhtzQTVgPLfQF5IHSUzuTenHCPtqMyi5JXUmqm46xAwwmzGBV6ZwC2IwFZpdu3YNdK8jfptKJRWMAKZZ0Az7kIAT74OSiDj6V5QnYStmdKp5semz6vSnnvZ11rGG_gWAUcCgxUxXozQmJiROek6w7BqJRENohqu0aBd3J6hYe_YQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "first_name",
+						"value": "besho",
+						"type": "text"
+					},
+					{
+						"key": "last_name",
+						"value": "ghamdi",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "language1",
+							"type": "text"
+						},
+						{
+							"key": "creator",
+							"value": "james",
+							"type": "text"
+						},
+						{
+							"key": "version",
+							"value": "1.1",
+							"type": "text"
+						},
+						{
+							"key": "",
+							"value": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	]
+}
